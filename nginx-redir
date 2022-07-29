@@ -1,0 +1,6 @@
+server{
+    listen 80;
+    server_name domain.com;
+    location /resource2{proxy_pass http//20.20.20.20:xxxx;
+    }
+}
